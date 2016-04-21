@@ -28,22 +28,3 @@ RUN apk add \
 RUN cp /usr/share/zoneinfo/Japan /etc/localtime \
 &&  apk del tzdata
 
-
-# RUN apt-get update \
-# &&  apt-get upgrade -y --force-yes \
-# && apt-get install -y --force-yes \
-#   libssl-dev \
-#   libreadline-dev \
-#   zlib1g-dev \
-#   language-pack-ja \
-#   wget \
-#   curl \
-#   git \
-#   build-essential \
-#   vim \
-# && apt-get clean \
-# && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
-# 
-# # defaultのlocaleをja_JP.UTF-8にする
-# ENV LANG=ja_JP.UTF-8
-# RUN update-locale LANG=ja_JP.UTF-8
