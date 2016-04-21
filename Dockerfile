@@ -6,12 +6,7 @@ FROM      alpine:latest
 
 MAINTAINER Gen Takahashi <gendosu@gmail.com>
 
-
-# for debug
-RUN apk add --update
-
-#for debug
-#RUN apk add --update \
+RUN apk add --update \
 RUN apk add \
     bash \
     tzdata \
