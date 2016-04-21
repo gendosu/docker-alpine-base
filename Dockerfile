@@ -7,7 +7,6 @@ FROM      alpine:latest
 MAINTAINER Gen Takahashi <gendosu@gmail.com>
 
 RUN apk add --update \
-RUN apk add \
     bash \
     tzdata \
     git \
@@ -15,7 +14,8 @@ RUN apk add \
     curl \
     vim \
     build-base \
-    readline \
+    readline-dev \
+    openssl-dev \
     zlib-dev \
 &&  rm -rf /var/cache/apk/*
 
