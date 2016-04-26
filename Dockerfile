@@ -2,7 +2,7 @@
 #
 # VERSION               0.0.1
 
-FROM      alpine:latest
+FROM alpine:2.6
 
 MAINTAINER Gen Takahashi <gendosu@gmail.com>
 
