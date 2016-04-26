@@ -8,7 +8,6 @@ MAINTAINER Gen Takahashi <gendosu@gmail.com>
 
 RUN apk add --update \
     bash \
-    tzdata \
     git \
     wget \
     curl \
@@ -20,6 +19,9 @@ RUN apk add --update \
 &&  rm -rf /var/cache/apk/*
 
 # # Timezone変更
-RUN cp /usr/share/zoneinfo/Japan /etc/localtime \
-&&  apk del tzdata
+RUN apk add --update \
+    tzdata \
+&&  cp /usr/share/zoneinfo/Japan /etc/localtime \
+&&  apk del tzdata \
+&&  rm -rf /var/cache/apk/*
 
