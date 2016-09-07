@@ -11,8 +11,8 @@ It's on [docker-hub](https://hub.docker.com/r/gendosu/alpine-base) and [github](
 
 ## running
 
-Run the server with port 8000 exposed. In this mode, all data will be lost when the container terminates.
+Run bash. In this mode, all data will be lost when the container terminates.
 ```sh
-docker run -it --rm gendosu/alpine-base
+docker run -it --rm gendosu/alpine-base bash
 ```
 
