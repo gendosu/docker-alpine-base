@@ -1,15 +1,28 @@
-# docker-alpine-base
+# Supported tags and respective Dockerfile links
 
+* `latest` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/master/Dockerfile)
+* `3.5` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/3.5/Dockerfile)
+* `3.4` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/3.4/Dockerfile)
+* `3.3` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/3.3/Dockerfile)
+* `3.2` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/3.2/Dockerfile)
+* `3.1` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/3.1/Dockerfile)
+* `2.7` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/2.7/Dockerfile)
+* `2.6` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/2.6/Dockerfile)
 
-A Alpine docker container
+# A Alpine docker image repository
 
 It's on [docker-hub](https://hub.docker.com/r/gendosu/alpine-base) and [github](https://github.com/gendosu/docker-alpine-base)
 
-## tags and links
+# base image
 
- * `latest` [(Dockerfile)](https://github.com/gendosu/docker-alpine-base/blob/master/Dockerfile) [![](https://imagelayers.io/badge/gendosu/alpine-base:latest.svg)](https://imagelayers.io/?images=gendosu/alpine-base:latest 'Get your own badge on imagelayers.io') [![Build Status](https://travis-ci.org/gendosu/docker-alpine-base.svg?branch=master)](https://travis-ci.org/gendosu/docker-alpine-base)
+https://hub.docker.com/_/alpine/
 
-## running
+# this repository is...
+
+* Time zone to Japan
+* add packages for develop
+
+# running
 
 Run bash. In this mode, all data will be lost when the container terminates.
 ```sh
